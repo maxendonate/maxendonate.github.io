@@ -1,6 +1,6 @@
 ---
-layout: project
-type: project
+layout: essay
+type: essay
 title: "WOD Reflcetion"
 date: 2023 
 published: true
