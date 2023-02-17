@@ -1,8 +1,8 @@
 ---
 layout: essay
 type: essay
-title: "WOD Reflcetion"
-date: 2023 
+title: "WOD Reflection"
+date: 2/16/2023 
 published: true
 labels:
   - WOD
