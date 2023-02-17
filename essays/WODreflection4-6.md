@@ -1,8 +1,8 @@
 ---
 layout: essay
 type: essay
-title: "WOD Reflection"
-date: 2/16/2023 
+title: "E3: WOD Technical Essay "
+date: 2023 
 published: true
 labels:
   - WOD
