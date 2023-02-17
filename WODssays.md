@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: "WOD Reflcetion"
+title: "WOD Reflection (1-3)"
 date: 2023 
 published: true
 labels:
