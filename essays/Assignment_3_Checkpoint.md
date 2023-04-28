@@ -2,7 +2,7 @@
 layout: essay
 type: essay
 title: "Assignment 3 Checkpoint"
-date: 4/27/2023 
+date: 2023 
 published: true
 labels:
   - Assignment 3
