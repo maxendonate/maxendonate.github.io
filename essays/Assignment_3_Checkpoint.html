@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="Assignment 3 Checkpoint | Maxen Donate | Professional Portfolio">
+    <meta name="description" content="">
+    <meta name="image" content="https://github.com/maxendonate.png">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Maxen Donate | Professional Portfolio">
+    <meta property="og:url" content="https://maxendonate.github.io/essays/Assignment_3_Checkpoint.html">
+    <meta property="og:title" content="Assignment 3 Checkpoint | Maxen Donate | Professional Portfolio">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="https://github.com/maxendonate.png">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/techfolio-theme/default.css">
+    <link rel="stylesheet" type="text/css" href="/css/rouge/github.css">
+    <!-- Load MathJax if 'mathjax: true' is found in your _config.yml. -->
+    
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML">
+    </script>
+    
+
+    <title>Assignment 3 Checkpoint | Maxen Donate | Professional Portfolio</title>
+  </head>
+  <body>
+  <header class="navbar navbar-expand navbar-light bg-light bg-gradient border-bottom">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/">Maxen Donate</a>
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <a class="nav-link" href="/#projects">Projects</a>
+        <a class="nav-link" href="/#essays">Essays</a>
+        <a class="nav-link" href="/resume.html">Resume</a>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<div class="container py-4">
+  <h1 class="display-4">Assignment 3 Checkpoint</h1>
+  <span class="date">01 Jan 1970</span>
+  <hr>
+  <p>In my reflection, I will be sharing my current journey through the Assignment 3 Project.</p>
+
+<ol>
+  <li>Describe your design for your site’s shopping cart. That is, will it be a separate page that the user can view and edit, or will it be integrated into the product pages? If so, describe in detail how this will work on your site. Provide several examples of using the cart. My design for my webpages shopping cart is to use a seperate page where the use can view the products they’ve selected, see the price of it, and be able to remove or add stuff. I decided to put it in a whole new webpage rather than being integrated on the product pages just because of space. I want my webpage to look neat and trying to squeeze a shopping cart will make my webpage look very tight and visually unappealing. It is also easier to have all the shopping cart code be in one page, and my server rather than trying to work the shopping cart code around every page that is already complete. In my webpage, the shopping cart will be visible after the product is selected and a user is logged in. For example, I will be on the products_display page as a user. I could select 3 White YETI bottles, and 2 Blue YETI bottles. I will then log in with my username and password and be able to either add more products, view my shopping cart, or go to the invoice to purchase. If I choose to view my cart, I will see the 3 White bottles and 2 Blue bottles and be able to access them.</li>
+  <li>Explain specifically how you will use sessions to manage your shopping cart. In particular, what shopping cart data will be stored in the session, what data format will be used (NOT what data type, but the format like with the data format used for your registration data). Use code examples showing what data structures (such as arrays and their objects) you will use to manage the shopping cart data and how they will be used in a session. To use sessions to manage a shopping cart, we can store the cart data in a session variable. The session variable will store an array of items in the cart. Each item in the cart will be represented as an object with properties such as the product ID, name, price, quantity, and any other relevant data.</li>
+  <li>How will you avoid access to your application when the user has not logged in or registered? What are the particular security concerns you must address? To prevent unauthorized access to an application, we need to implement proper authentication and authorization mechanisms. This can be done by requiring users to log in or register before accessing any sensitive or protected parts of the application. 1. Password Security: We must ensure that the user’s password is stored securely using strong hashing algorithms and never stored in plain text. It is recommended to use a password policy that enforces users to choose strong passwords that meet certain requirements such as minimum length and complexity. 2. Input Validation: We must validate all user inputs to ensure that they are in the correct format and do not contain any malicious content. This is especially important for inputs such as login credentials and registration information, which can be used to exploit vulnerabilities in the application. 3. Access Control: We need to ensure that users can only access the parts of the application that they are authorized to access. This can be achieved by implementing role-based access control, where each user is assigned a specific role that determines what they can and cannot do within the application.</li>
+  <li>Upon a successful login, how do you provide personalization in your UI? Explain how you did or will do this (paste code if necessary). Upon a successful login, personalization in the UI can be achieved by displaying user-specific information such as their name, profile picture, and preferences. This can be done by accessing the user’s data from the database and passing it to the UI for display.</li>
+  <li>If you are working with partners, how will you split up the work in your team so that you are working in parallel as effectively as possible? That is, who is doing what and when? I will not be working with a partner and will do all the work myself.</li>
+  <li>How are you approaching Assignment 3 differently than Assignment 2? I am appraoching Assignment 3 a little more slowly than the other two. In assignment 2, I noticed that I wrote a lot of unecessary code that was detrimental to the rest of my code. In this assignment, I want to move slowly adding in a few things at a time and then testing my website thoroughly. I need to connect all my webpages in my site together and that will be very complicated.</li>
+</ol>
+
+</div>
+
+<footer class="navbar navbar-expand navbar-light bg-light bg-gradient border-top">
+  <div class="container-fluid">
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <small><a class="nav-link" href="https://techfolios.github.io">Made with Techfolios</a></small>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>
